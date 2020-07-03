@@ -1,0 +1,82 @@
+/* slides */
+
+.slide {
+    overflow: hidden;
+}
+
+.slide .slide-new {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 35s slide infinite;
+}
+
+.slide .slide-new .area {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+
+/*button animation*/
+
+.animation:before,
+.animation:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.animation:before {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    transform: scaleY(0);
+}
+
+.animation:after {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: scaleX(0);
+}
+
+.animation:hover::before {
+    transform: scaleY(1);
+}
+
+.animation:hover:after {
+    transform: scaleX(1);
+}

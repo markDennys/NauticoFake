@@ -1,0 +1,80 @@
+main .last-news {
+    background-color: aliceblue;
+}
+
+.area-new {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.the-new {
+    position: relative;
+    width: 70%;
+}
+
+.tittle-new {
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    left: 3%;
+    font-size: max(25px, 2.5vw);
+}
+
+.see-more {
+    position: relative;
+    width: 30%;
+}
+
+main .last-news .area-news1 {
+    background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://s2.glbimg.com/tYjIPsFk0x0lhjDMA-xr3EMqz64=/0x0:5472x3648/984x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2019/12/10/mco_8101.jpg');
+    background-size: cover;
+}
+
+main .last-news .area-news2 {
+    background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://assets-mantosdofutebol.sfo2.digitaloceanspaces.com/wp-content/uploads/2020/06/Camisas-do-Nautico-2020-2021-NSeis-Reserva-abre.jpg');
+    background-size: cover;
+}
+
+main .last-news .area-news3 {
+    background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2020/03/09/img_0844-7957414.jpg');
+    background-size: cover;
+}
+
+main .last-news .area-news4 {
+    background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://cdn.folhape.com.br/upload/dn_noticia/2018/12/EDW_4061.jpg');
+    background-size: cover;
+}
+
+.button-news {
+    position: absolute;
+    bottom: 4.5%;
+    text-align: center;
+    padding: 15px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.button-news:hover {
+    background-color: var(--second-color);
+}
+
+
+/*Responsive*/
+
+@media(max-width:600px) {
+    main .last-news .area-news2 {
+        background-position-x: -35vw;
+        background-size: cover;
+    }
+    main .last-news .area-news3 {
+        background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2020/03/09/img_0844-7957414.jpg');
+        background-position-x: -50vw;
+        background-size: cover;
+    }
+}
