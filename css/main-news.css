@@ -60,10 +60,6 @@ main .last-news .area-news4 {
     transition: 0.3s;
 }
 
-.button-news:hover {
-    background-color: var(--second-color);
-}
-
 
 /*Responsive*/
 
