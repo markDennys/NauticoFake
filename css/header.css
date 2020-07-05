@@ -12,16 +12,18 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    background: linear-gradient(90deg, var(--second-color), var(--first-color))
 }
 
 header nav .logo {
     display: flex;
     align-items: center;
+    padding-left: 2%;
 }
 
 header nav .logo img {
@@ -38,6 +40,10 @@ header nav .logo h1 {
 header nav .ul-normal li {
     display: inline;
     padding-right: 20px;
+}
+
+header nav .ul-normal li a:hover {
+    border-bottom: 1px solid white;
 }
 
 header .be-patner {
@@ -67,8 +73,8 @@ header .be-patner .video {
 
 header .be-patner .video iframe {
     margin-left: auto;
-    width: 80%;
-    height: 60%;
+    width: 73.5%;
+    height: 48%;
 }
 
 header .be-patner .thin {
@@ -156,7 +162,7 @@ header .be-patner .button:hover {
     bottom: -10px;
 }
 
-input {
+.check {
     display: none;
 }
 
@@ -239,7 +245,7 @@ input:checked~ul {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .menu-hamburguer {
         display: block;
     }

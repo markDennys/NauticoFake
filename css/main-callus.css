@@ -1,0 +1,107 @@
+main .callus {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, var(--second-color), var(--first-color));
+    background: linear-gradient(0deg, rgba(122, 3, 7, 0.777), rgba(122, 3, 7, 0.777)), url('https://imagens.ebc.com.br/IwG5W3S8TK-Wyfa-_YJS2kSbCwI=/754x0/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/nautico_torcida_pernambuco_recife.jpg?itok=UIVtOMTz') fixed;
+    background-size: cover;
+}
+
+.callus form {
+    width: 70%;
+    height: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+legend {
+    text-align: center;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 5%;
+    font-size: max(25px, 3vw);
+    text-shadow: 2px 2px 0px rgb(87, 1, 1);
+}
+
+form fieldset label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    border: 0;
+    margin: 0 auto;
+}
+
+.date {
+    display: flex;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+.date-name,
+.date-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-name {
+    width: 45%;
+}
+
+.date-email {
+    width: 50%;
+    margin-left: 5%
+}
+
+.date input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    color: var(--first-color);
+    border: none;
+    padding-left: 4px;
+    font-size: 15px;
+    outline: none;
+}
+
+.textarea-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea-message textarea {
+    width: 100%;
+    border-radius: 4px;
+    outline: none;
+    color: var(--first-color);
+    border: none;
+    font-size: 15px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+fieldset button {
+    position: relative;
+    width: 35%;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    margin: 20px auto;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .callus form {
+        width: 100%;
+    }
+}

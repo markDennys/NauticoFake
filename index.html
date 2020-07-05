@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/animation.css">
 
+
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main-matches.css">
     <link rel="stylesheet" href="./css/main-news.css">
-
-
+    <link rel="stylesheet" href="./css/main-followers.css">
+    <link rel="stylesheet" href="./css/main-callus.css">
 </head>
 
 
@@ -36,11 +37,12 @@
             <ul class="ul-normal">
                 <li><a href="#matches">Próximos Jogos</a></li>
                 <li><a href="#news">Útlimas Notícias</a></li>
-                <li><a href="">Fale Conosco</a></li>
+                <li><a href="#followers">12º Jogador</a></li>
+                <li><a href="#callus">Fale Conosco</a></li>
             </ul>
 
             <div class="menu-hamburguer">
-                <input id="navbar" type='checkbox'>
+                <input class="check" id="navbar" type='checkbox'>
                 <label for="navbar">
                 <div class='menu'>
                     <span class='hamburger'></span>
@@ -49,7 +51,8 @@
                 <ul class="ul-hamburguer">
                     <li><a class="ham" href="#matches">Próximos Jogos</a></li>
                     <li><a class="ham" href="#news">Útlimas Notícias</a></li>
-                    <li><a class="ham" href="">Fale Conosco</a></li>
+                    <li><a class="ham" href="#followers">12º Jogador</a></li>
+                    <li><a class="ham" href="#callus">Fale Conosco</a></li>
                 </ul>
             </div>
 
@@ -80,7 +83,7 @@
 
         <section class="next-matches" id="matches">
 
-            <h2 class="tittle-section">O Náutico é mais Forte com Você ! </h2>
+            <h2 class="tittle-section">Próximos Jogos </h2>
 
             <div class="matches-area">
 
@@ -254,10 +257,65 @@
 
             </div>
         </section>
+
+        <section class="followers" id="followers">
+            <h2 class="tittle-section">12º Jogador</h2>
+
+            <div class="grid-followers">
+                <div class="follower follower1 "></div>
+                <div class="follower follower2"></div>
+                <div class="follower follower3"></div>
+                <div class="follower follower4"></div>
+                <div class="follower follower5"></div>
+                <div class="follower follower6"></div>
+                <div class="follower follower7"></div>
+                <div class="follower follower8"></div>
+                <div class="follower follower9"></div>
+                <div class="follower follower10"></div>
+            </div>
+            <div class="send-photos-area">
+
+                <h2>Faça Parte Dessa História! Mande Sua Foto</h2>
+                <form>
+
+                    <label class="sendpic animation" for="picture">Enviar arquivo</label>
+                    <input type="file" name="picture" id="picture">
+
+                </form>
+
+            </div>
+
+
+        </section>
+        <section class="callus" id="callus">
+            <h2 class="tittle-section">Fale Conosco</h2>
+            <form action="">
+
+
+                <fieldset>
+
+
+                    <div class="date">
+                        <div class="date-name">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="date-email">
+                            <label for="name">Email</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </div>
+                    <div class="textarea-message">
+                        <label for="message">Sua Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="12"></textarea>
+                    </div>
+                    <button class="animation" type="submit ">Enviar</button>
+
+                </fieldset>
+            </form>
+
+        </section>
     </main>
-
-
-
 
 </body>
 

@@ -1,0 +1,118 @@
+.followers {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, var(--third-color), white);
+}
+
+.grid-followers {
+    width: 100%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 0.8fr 2.5fr 0.8fr;
+    grid-template-rows: 5fr 5fr;
+}
+
+.follower1 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2Fmolq.jpg?v=1593873523093");
+    background-size: cover;
+}
+
+.follower2 {
+    background: url("https://imagens2.ne10.uol.com.br/blogsne10/torcedor/uploads//2017/03/timbuzeiras.jpg");
+    background-size: cover;
+}
+
+.follower5 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2Fcaff9231-78df-4e09-a946-5250a9a0a3d0.jpg?v=1593873069424");
+    background-size: cover;
+}
+
+.follower4 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-06-26%20at%2020.08.08.jpeg?v=1593873374294");
+    background-size: cover;
+}
+
+.follower3 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.06.18%20(1).jpeg?v=1593874133970");
+    background-size: cover;
+}
+
+.follower6 {
+    background: url('https://lh3.googleusercontent.com/proxy/P484HKteVnqu3dwdCn70B8SLaHn_X110Ezd3PoLZYWHVRsAUbWf7s4xmLJC1FMBYM5HfByN2r63FsrG8MjivadZ9GqY26vH3-9kMvfu2zMAD2sqvMLRzybX9jhrn');
+    background-size: cover;
+}
+
+.follower7 {
+    background: url('https://nauticonet.com.br/web/wp-content/uploads/2018/04/N%C3%A1utico-Campe%C3%A3o-Pernambucano-2018-Torcedores-68.jpg');
+    background-size: cover;
+}
+
+.follower10 {
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2011.42.01.jpeg?v=1593872668820');
+    background-size: cover;
+}
+
+.follower9 {
+    background: url('https://lh3.googleusercontent.com/proxy/elLd2TmfHStkqISePP0JMi-PDyTNb0dkyvOpz0iuiPmtcMiJ1m24J7E1KdjpwLL8TFhFxuFpOSk7zdc7LiDDEf2cFDF6Yh_j_Zp3tu75WkrGu_LyCwzM8Qp1taI');
+    background-size: cover;
+}
+
+.follower8 {
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.49.29.jpeg?v=1593876452713');
+    background-size: cover;
+}
+
+.followers .send-photos-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.send-photos-area h2 {
+    font-size: max(25px, 3vw);
+    font-weight: 400;
+    color: var(--first-color);
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.sendpic {
+    position: relative;
+    padding: 20px 10px;
+    width: 100%;
+    background-color: var(--first-color);
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sendpic:hover {
+    background-color: var(--second-color);
+}
+
+
+/*Responsive*/
+
+@media (max-width:700px) {
+    .grid-followers {
+        width: 100%;
+        height: 55%;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 5fr 5fr;
+        grid-gap: 10px;
+    }
+}
