@@ -208,7 +208,7 @@ input:checked~ul {
     display: block;
     margin-bottom: 1em;
     text-decoration: none;
-    font-size: max(15px, 2vw);
+    font-size: 20px;
 }
 
 @media(max-width:900px) {
