@@ -41,6 +41,7 @@ footer .info-footer ul {
     width: 60%;
     margin: 0 auto;
     padding-top: 4%;
+    display: flex;
 }
 
 footer .info-footer ul li {
@@ -57,7 +58,7 @@ footer .info-footer ul li {
 
 .title-footer h2 {
     color: white;
-    font-size: max(15px, 1vw);
+    font-size: max(12px, 1vw);
     text-align: center;
 }
 
@@ -74,5 +75,19 @@ footer .info-footer ul li {
     .about {
         width: 100%;
         margin: 20px auto;
+    }
+}
+
+@media(max-height:600px) {
+    footer .info-footer {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 30%;
+    }
+}
+
+@media(max-height:500px) {
+    .info-footer .address {
+        display: none;
     }
 }
