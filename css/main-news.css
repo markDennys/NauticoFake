@@ -13,12 +13,12 @@ main .last-news {
     width: 70%;
 }
 
-.tittle-new {
+.title-new {
     position: absolute;
     bottom: 5%;
     width: 80%;
     left: 3%;
-    font-size: max(25px, 2.5vw);
+    font-size: max(15px, 2.5vw);
 }
 
 .area-new .see-more {
@@ -50,9 +50,9 @@ main .last-news {
     position: absolute;
     bottom: 4.5%;
     text-align: center;
+    font-size: max(15px, 1.5vw);
     padding: 15px;
     width: 80%;
-    font-size: 20px;
     font-weight: 400;
     color: white;
     background-color: transparent;
@@ -72,5 +72,11 @@ main .last-news {
         background: linear-gradient(0deg, rgb(124, 1, 1), rgba(240, 237, 237, 0)), url('https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2020/03/09/img_0844-7957414.jpg');
         background-position-x: -50vw;
         background-size: cover;
+    }
+    .area-new .title-new {
+        width: 90%;
+    }
+    .button-news {
+        padding: 10px;
     }
 }

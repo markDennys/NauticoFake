@@ -63,7 +63,7 @@ form fieldset {
 
 .date input {
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 4px;
     color: var(--first-color);
     border: none;
@@ -75,10 +75,12 @@ form fieldset {
 .textarea-message {
     display: flex;
     flex-direction: column;
+    height: 70%;
 }
 
 .textarea-message textarea {
     width: 100%;
+    height: 100%;
     border-radius: 4px;
     outline: none;
     color: var(--first-color);
@@ -90,7 +92,7 @@ form fieldset {
 
 fieldset button {
     position: relative;
-    width: 35%;
+    width: 45%;
     height: 50px;
     font-size: 15px;
     color: white;
@@ -103,5 +105,19 @@ fieldset button {
 @media (max-width:500px) {
     .callus form {
         width: 100%;
+        height: 60%;
+        margin-top: 0;
+    }
+    fieldset button {
+        position: relative;
+        width: 55%;
+    }
+}
+
+@media (max-height:567px) {
+    .callus form {
+        width: 100%;
+        height: 60%;
+        margin-top: 0;
     }
 }

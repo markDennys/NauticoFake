@@ -208,7 +208,7 @@ input:checked~ul {
     display: block;
     margin-bottom: 1em;
     text-decoration: none;
-    font-size: max(25px, 2vw);
+    font-size: max(15px, 2vw);
 }
 
 @media(max-width:900px) {
@@ -250,6 +250,15 @@ input:checked~ul {
         display: block;
     }
     header .ul-normal {
+        display: none;
+    }
+    header nav {
+        background: transparent;
+    }
+}
+
+@media(max-height:380px) {
+    header .be-patner .video {
         display: none;
     }
 }

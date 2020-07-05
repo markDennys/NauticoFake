@@ -20,12 +20,12 @@
 }
 
 .follower2 {
-    background: url("https://imagens2.ne10.uol.com.br/blogsne10/torcedor/uploads//2017/03/timbuzeiras.jpg");
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F89709599_228594198186140_8186057021336122108_n.jpg?v=1593949597187");
     background-size: cover;
 }
 
-.follower5 {
-    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2Fcaff9231-78df-4e09-a946-5250a9a0a3d0.jpg?v=1593873069424");
+.follower3 {
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.49.29.jpeg?v=1593876452713');
     background-size: cover;
 }
 
@@ -34,33 +34,33 @@
     background-size: cover;
 }
 
-.follower3 {
-    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.06.18%20(1).jpeg?v=1593874133970");
+.follower5 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2Fcaff9231-78df-4e09-a946-5250a9a0a3d0.jpg?v=1593873069424");
     background-size: cover;
 }
 
 .follower6 {
-    background: url('https://lh3.googleusercontent.com/proxy/P484HKteVnqu3dwdCn70B8SLaHn_X110Ezd3PoLZYWHVRsAUbWf7s4xmLJC1FMBYM5HfByN2r63FsrG8MjivadZ9GqY26vH3-9kMvfu2zMAD2sqvMLRzybX9jhrn');
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F76972191_163237508377403_561393943111706032_n.jpg?v=1593904989884');
     background-size: cover;
 }
 
 .follower7 {
-    background: url('https://nauticonet.com.br/web/wp-content/uploads/2018/04/N%C3%A1utico-Campe%C3%A3o-Pernambucano-2018-Torcedores-68.jpg');
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F89298868_2592048307706150_470549962206325899_n.jpg?v=1593949579387');
+    background-size: cover;
+}
+
+.follower8 {
+    background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.06.18%20(1).jpeg?v=1593874133970");
+    background-size: cover;
+}
+
+.follower9 {
+    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F90087881_2512544052328291_3809042984105364112_n.jpg?v=1593949568313');
     background-size: cover;
 }
 
 .follower10 {
     background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2011.42.01.jpeg?v=1593872668820');
-    background-size: cover;
-}
-
-.follower9 {
-    background: url('https://lh3.googleusercontent.com/proxy/elLd2TmfHStkqISePP0JMi-PDyTNb0dkyvOpz0iuiPmtcMiJ1m24J7E1KdjpwLL8TFhFxuFpOSk7zdc7LiDDEf2cFDF6Yh_j_Zp3tu75WkrGu_LyCwzM8Qp1taI');
-    background-size: cover;
-}
-
-.follower8 {
-    background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2FWhatsApp%20Image%202020-07-04%20at%2012.49.29.jpeg?v=1593876452713');
     background-size: cover;
 }
 
@@ -111,8 +111,34 @@ input[type="file"] {
         width: 100%;
         height: 55%;
         display: grid;
-        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-columns: 5fr 5fr;
         grid-template-rows: 5fr 5fr;
         grid-gap: 10px;
+    }
+    .follower3 {
+        background: url('https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F90087881_2512544052328291_3809042984105364112_n.jpg?v=1593949568313');
+        background-size: cover;
+    }
+    .follower4 {
+        background: url("https://cdn.glitch.com/2fece26e-0b0a-4236-ad30-75de0d62d0c0%2F76972191_163237508377403_561393943111706032_n.jpg?v=1593904989884");
+        background-size: cover;
+    }
+    .follower5 {
+        display: none;
+    }
+    .follower6 {
+        display: none;
+    }
+    .follower7 {
+        display: none;
+    }
+    .follower8 {
+        display: none;
+    }
+    .follower9 {
+        display: none;
+    }
+    .follower10 {
+        display: none;
     }
 }
