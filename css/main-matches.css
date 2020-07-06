@@ -134,7 +134,7 @@ h5 {
     }
 }
 
-@media (max-height:420px) {
+@media (max-height:500px) {
     .matches-area .card2 {
         display: none;
     }
