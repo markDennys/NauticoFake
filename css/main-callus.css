@@ -1,6 +1,6 @@
 main .callus {
     width: 100%;
-    height: 100vh;
+    height: 625px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(90deg, var(--second-color), var(--first-color));
@@ -111,13 +111,5 @@ fieldset button {
     fieldset button {
         position: relative;
         width: 55%;
-    }
-}
-
-@media (max-height:567px) {
-    .callus form {
-        width: 100%;
-        height: 60%;
-        margin-top: 0;
     }
 }
