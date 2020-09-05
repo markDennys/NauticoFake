@@ -1,6 +1,6 @@
 main .callus {
     width: 100%;
-    height: 625px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background: linear-gradient(90deg, var(--second-color), var(--first-color));
