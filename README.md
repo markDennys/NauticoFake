@@ -11,9 +11,6 @@ Site no desktop :
 site no mobile: 
 
 ![preview do projeto ](https://i.imgur.com/xdxiZFX.png)
-```bash
-pip install foobar
-```
 
 ## Tecnologias
 
